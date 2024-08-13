@@ -22,7 +22,7 @@
   & zin-pricing {
     display: block;
     padding-block: 1.5rem;
-    font: var(--fw-bold) var(--fs-price)/1.2 var(--ff-sans);
+    font: var(--fw-bold) var(--fs-price) / 1.2 var(--ff-sans);
   }
 
   & zin-pricing small {
@@ -109,6 +109,7 @@
     & .card:nth-child(3) .separator {
       margin-block: 1.5rem;
     }
-    
   }
 }
+
+/*check*/
