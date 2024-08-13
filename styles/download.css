@@ -1,8 +1,7 @@
 #download {
   .card {
     padding: 3rem 1.5rem 15rem;
-    position: relative;
-    
+    position: relative;  
     & > img {
       width: 14.5rem;
       position: absolute;
@@ -30,5 +29,4 @@
     }
   }
 }
-
 /*check*/

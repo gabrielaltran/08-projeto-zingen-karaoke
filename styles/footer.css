@@ -3,7 +3,7 @@ footer {
   font-weight: var(--fw-md);
 
   & .container {
-    padding-inline-start: 3rem;
+    padding-inline: 3rem;
   }
 
   & .container, 
@@ -21,7 +21,7 @@ footer {
 
   & .title {
     font-size: 0.75rem;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.08rem;
     text-transform: uppercase;
     color: var(--brand-color-primary);
   }
@@ -57,5 +57,4 @@ footer {
     }
   }
 }
-
 /*check*/

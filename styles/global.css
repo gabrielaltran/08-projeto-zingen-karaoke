@@ -14,11 +14,11 @@
 }
 
 :root {
-  --background-color: #09090b;
+  --bg-color: #09090b;
   --surface-color: #18181b;
   --stroke-color: #27272a;
-  --text-color-secondary: #a1a1aa;
   --text-color-primary: #f4f4f5;
+  --text-color-secondary: #a1a1aa;
   --brand-color-primary: #f7b733;
   --brand-color-secondary: #fc4a1a;
 
@@ -53,9 +53,8 @@ html {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 h1, 
@@ -85,13 +84,18 @@ a {
 }
 
 a:hover {
-  background: linear-gradient (90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
+  background: linear-gradient(
+    90deg,
+  var(--brand-color-secondary) 0%,
+  var(--brand-color-primary) 100%
+  );
+
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-ul[role="list"] {
+ul[role='list'] {
   list-style: none;
 }
 
@@ -113,5 +117,4 @@ img {
     --px-lg: 2rem;
   }
 }
-
 /*check*/
